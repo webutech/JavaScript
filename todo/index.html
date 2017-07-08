@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+  </head>
+
+  <body>
+   <h1>Todo App</h1>
+   <div>
+    <button onclick="handler.displayTodos()">Display Todos</button>
+    <button onclick="handler.toggleAll()">Toggle All</button>
+   </div><br>
+   <div>
+     <input type="text" id="toDoTextInput" placeholder="Add Task"> <button onclick="handler.addTodo()">Add</button>
+   </div>
+   <br>
+   <div>
+       <input type="number" id="changeToDoPositionInput" placeholder="Position to change">
+       <input type="text" id="changeToDoTextInput" placeholder="Text to change">
+       <button onclick="handler.changeTodo()">Change</button>
+   </div>
+   <br>
+   <div>
+     <input type="number" id="deleteTodoPositionInput" placeholder="Position to delete">
+     <button onclick="handler.deleteTodo()">Delete</button>
+     
+   </div>
+    <br>
+   <div>
+     <input type="number" id="toggleCompleteTodoPositionInput" placeholder="Position to toggle text">
+     <button onclick="handler.toggleComplete()">Toggle</button>
+     
+   </div>
+   
+   <ul>
+     
+   </ul>
+    
+    <script src="script.js"></script>
+  </body>
+  
+
+</html>
